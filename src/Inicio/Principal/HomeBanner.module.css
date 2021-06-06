@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(180deg, black, rgb(37, 37, 37));
+}
+
+@font-face {
+    font-family: 'TituloRebote';
+    src: url('../../assets/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'ParrafoRebote';
+    src: url('../../assets/Roboto-ThinItalic.ttf');
+}
+
+.Banner_Body {
+    margin-left: 10rem;
+    color: white;
+    width: 80%;
+    height: 25rem;
+}
+
+.Banner_ListStyle {
+    list-style: none;
+    display: fixed;
+    list-style-type: none;
+    align-items: center;
+}
+
+.Banner_ListBody {
+    width: 80%;
+    height: 25rem;
+}
+
+.Banner_Imagen {
+    width: 70%;
+    height: 30.1rem;
+    float: left;
+    border-top-left-radius: 0.5rem;
+}
+
+.Banner_NoticiasSmall1 {
+    width: 29.8%;
+    float: left;
+    border-top-right-radius: 0.5rem;
+}
+
+.Banner_NoticiasSmall2 {
+    width: 29.8%;
+    float: left;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.Banner_Backdrop {
+    position: absolute;
+    background-color: rgb(44, 44, 44, 0.6);
+    margin: 0;
+    padding-top: 27rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 63rem;
+    background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgba(100, 99, 99, 0.5));
+}
+
+.Banner_Titulo {
+    position: absolute;
+    margin-top: 20rem;
+    margin-left: 1rem;
+    font-size: 35px;
+    width: 60rem;
+    font-family: 'TituloRebote';
+}
