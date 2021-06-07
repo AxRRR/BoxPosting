@@ -69,3 +69,81 @@ body {
     width: 60rem;
     font-family: 'TituloRebote';
 }
+
+.Banner_Backdrop_Second {
+    position: absolute;
+    background-color: rgb(44, 44, 44, 0.6);
+    margin: 0;
+    margin-left: 64rem;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    padding-left: 7.3rem;
+    padding-right: 20rem;
+    background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgba(100, 99, 99, 0.5));
+}
+
+.Banner_Titulo_Second {
+    position: absolute;
+    margin-top: 11rem;
+    margin-left: 65rem;
+    font-size: 20px;
+    width: 25rem;
+    font-family: 'TituloRebote';
+}
+
+.Banner_Backdrop_Third {
+    position: absolute;
+    background-color: rgb(44, 44, 44, 0.6);
+    margin: 15rem;
+    margin-left: 64rem;
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    padding-left: 7.3rem;
+    padding-right: 20rem;
+    background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgba(100, 99, 99, 0.5));
+}
+
+.Banner_Titulo_Third {
+    position: absolute;
+    margin-top: 25rem;
+    margin-left: 65rem;
+    font-size: 20px;
+    width: 25rem;
+    font-family: 'TituloRebote';
+}
+
+.Banner_TAG1 {
+    position: absolute;
+    background-color: red;
+    color: whitesmoke;
+    font-family: 'TituloRebote';
+    padding: 0.5rem;
+    font-size: 15px;
+    
+    margin: 0;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.Banner_TAG2 {
+    position: absolute;
+    background-color: red;
+    color: whitesmoke;
+    font-family: 'TituloRebote';
+    padding: 0.5rem;
+    font-size: 15px;
+    margin-left: 64rem;
+    margin-top: 0;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.Banner_TAG3 {
+    position: absolute;
+    background-color: red;
+    color: whitesmoke;
+    font-family: 'TituloRebote';
+    padding: 0.5rem;
+    font-size: 15px;
+    margin-left: 64rem;
+    margin-top: 16rem;
+    border-bottom-right-radius: 0.4rem;
+}
