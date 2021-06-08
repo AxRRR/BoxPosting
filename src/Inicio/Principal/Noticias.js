@@ -1,9 +1,11 @@
 import classes from './Noticias.module.css'
 import React from 'react'
+import TopNoticias from '../TopNoticias/TopNoticias'
 
 const Noticias = () => {
     return <div>
         <div className={classes.Noticias_BOX}>
+            <TopNoticias />
         <h2 className={classes.Noticias_Titulo}>Última noticias:</h2>
             <ul className={classes.Noticias_BOXStyle}>
             <div>

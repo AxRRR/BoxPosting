@@ -6,12 +6,12 @@ const Menu = () => {
 
     return <div>
         <ul className={classes.Navbar_MenuStyle}>
-            <li className={classes.Navbar_Item}>
-                <img src={LogoImg} alt={LogoImg} className={classes.Navbar_Logo} />
-            </li>
-            <li className={classes.Navbar_Item}>Inicio</li>
+            <img src={LogoImg} alt={LogoImg} className={classes.Navbar_Logo} />
             <li className={classes.Navbar_Item}>Noticias</li>
-            <li className={classes.Navbar_Item}>Perfil</li>
+            <li className={classes.Navbar_Item}>Videojuegos</li>
+            <li className={classes.Navbar_Item}>Cine y Series</li>
+            <li className={classes.Navbar_Item}>Anime</li>
+            <li className={classes.Navbar_Item}>Tecnologia</li>
         </ul>
     </div>
 }
