@@ -39,13 +39,16 @@ body {
 }
 
 .Banner_NoticiasSmall1 {
-    width: 29.8%;
+    width: 27rem;
+    height: 14.5rem;
+    margin-bottom: 0.5rem;
     float: left;
     border-top-right-radius: 0.5rem;
 }
 
 .Banner_NoticiasSmall2 {
-    width: 29.8%;
+    width: 27rem;
+    height: 14.5rem;
     float: left;
     border-bottom-right-radius: 0.5rem;
 }
@@ -57,7 +60,7 @@ body {
     padding-top: 27rem;
     padding-bottom: 4rem;
     padding-left: 1rem;
-    padding-right: 63rem;
+    padding-right: 62.5rem;
     background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgba(100, 99, 99, 0.5));
 }
 
@@ -74,11 +77,11 @@ body {
     position: absolute;
     background-color: rgb(44, 44, 44, 0.6);
     margin: 0;
-    margin-left: 64rem;
+    margin-left: 63.5rem;
     padding-top: 15rem;
     padding-bottom: 1rem;
     padding-left: 7.3rem;
-    padding-right: 20rem;
+    padding-right: 19.7rem;
     background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgba(100, 99, 99, 0.5));
 }
 
@@ -95,11 +98,11 @@ body {
     position: absolute;
     background-color: rgb(44, 44, 44, 0.6);
     margin: 15rem;
-    margin-left: 64rem;
+    margin-left: 63.5rem;
     padding-top: 15rem;
     padding-bottom: 1rem;
     padding-left: 7.3rem;
-    padding-right: 20rem;
+    padding-right: 19.7rem;
     background: linear-gradient(0deg, rgb(0, 0, 0, 0.9), rgba(100, 99, 99, 0.5));
 }
 
@@ -114,7 +117,7 @@ body {
 
 .Banner_TAG1 {
     position: absolute;
-    background-color: red;
+    background-color: crimson;
     color: whitesmoke;
     font-family: 'TituloRebote';
     padding: 0.5rem;
@@ -126,7 +129,7 @@ body {
 
 .Banner_TAG2 {
     position: absolute;
-    background-color: red;
+    background-color: crimson;
     color: whitesmoke;
     font-family: 'TituloRebote';
     padding: 0.5rem;
@@ -138,7 +141,7 @@ body {
 
 .Banner_TAG3 {
     position: absolute;
-    background-color: red;
+    background-color: crimson;
     color: whitesmoke;
     font-family: 'TituloRebote';
     padding: 0.5rem;

@@ -8,23 +8,23 @@ const HomeBanner = () => {
             <ul>
                 <li className={classes.Banner_ListStyle}>
                     <div className={classes.Banner_Backdrop}></div>
-                    <h1 className={classes.Banner_TAG1}>Deportes</h1>
-                    <h3 className={classes.Banner_Titulo}>¡Por fin Cruz Azul se corona Rey de la Liga Mexicana de fútbol tras 23 años de no coronarse en el campeonato ligero!</h3>
-                <img src='https://phantom-marca.unidadeditorial.es/a06edc15a885ee473b2f288147ee88dc/resize/1980/f/jpg/assets/multimedia/imagenes/2021/05/31/16224329675106.jpg' 
+                    <h1 className={classes.Banner_TAG1}>Tecnologia</h1>
+                    <h3 className={classes.Banner_Titulo}>El Redmi Note 10 5G es el único móvil de la mítica familia de Xiaomi que tiene conectividad 5G.</h3>
+                <img src='https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/06/redmi-note-10-5g-analisis-opinion-2360679.jpg?itok=Gm9VWDsO' 
                 alt='BannerPrueba' className={classes.Banner_Imagen} />
                 </li>
                 <li className={classes.Banner_ListStyle}>
                 <div className={classes.Banner_Backdrop_Second}></div>
                 <h1 className={classes.Banner_TAG2}>Anime</h1>
-                    <h3 className={classes.Banner_Titulo_Second}>¡One Piece: Episiodio 978 adelanto del capitulo!</h3>
-                    <img src='https://pbs.twimg.com/media/Eo2uUViXUAMSf7k.jpg'
+                    <h3 className={classes.Banner_Titulo_Second}>¿Luffy, Zoro o Nami? quién es el personaje de One Piece más querido</h3>
+                    <img src='https://pulpfictioncine.com/download/multimedia.normal.8600aabc25e810d3.4f6e652050696563652057616e6f204f70656e696e6720325f6e6f726d616c2e6a706567.jpeg'
                     alt='BannerPrueba2' className={classes.Banner_NoticiasSmall1} />
                 </li>
                 <li className={classes.Banner_ListStyle}>  
                 <div className={classes.Banner_Backdrop_Third}></div>
                 <h1 className={classes.Banner_TAG3}>Videojuegos</h1>
-                    <h3 className={classes.Banner_Titulo_Third}>Esta sería la fecha de presentación de GTA 6, según rumores</h3>
-                    <img src='https://www.somosxbox.com/wp-content/uploads/2021/03/XboxSeriesX-S.jpg'
+                    <h3 className={classes.Banner_Titulo_Third}>Game Builder Garage: ahora Nintendo quiere que hagas tú los videojuegos</h3>
+                    <img src='https://phantom-elmundo.unidadeditorial.es/2016306c73cd075fc50f5d198ac8e241/resize/473/f/webp/assets/multimedia/imagenes/2021/05/27/16221124040284.jpg'
                     alt='ImagenPrueba3' className={classes.Banner_NoticiasSmall2} />
                 </li>
             </ul>
