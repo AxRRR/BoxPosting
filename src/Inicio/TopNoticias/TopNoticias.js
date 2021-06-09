@@ -1,13 +1,20 @@
 import classes from './TopNoticias.module.css'
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const TopNoticias = () => {
+const TopNoticias = (props) => {
+    const NoticiaHandler = (id) => {
+        props.onNoticiaHandler(id)
+        console.log(id)
+    }
     return <div>
         <ul className={classes.TOP_List}>
             <h2 className={classes.TOP_Titulo}>Lo más visto:</h2>
             <li className={classes.TOP_Box}>
-                <img src='https://www.eltiempo.com/files/article_main/uploads/2020/03/06/5e62c1d3f0d07.jpeg'
-                alt='TOPIMGPRUEBA' className={classes.TOP_Img} />
+            <Link to={"/ver/" + 1}><img src='https://www.eltiempo.com/files/article_main/uploads/2020/03/06/5e62c1d3f0d07.jpeg'
+                alt='TOPIMGPRUEBA' className={classes.TOP_Img} 
+                onClick={() => NoticiaHandler('1')} />
+                </Link>
                 <p className={classes.TOP_Parrafo}>Festival Xbox Game Pass traerá algunas sorpresas sobre videojuegos</p>
             </li>
             <li className={classes.TOP_Box}>
