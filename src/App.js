@@ -13,7 +13,7 @@ function App() {
   }, [])
 
   const ConsultarDatos = async () => {
-    const url = await fetch('http://localhost:8080/api/tecnologias')
+    const url = await fetch('http://localhost:8080/api/buscarnoticias')
     const tnoticia = await url.json()
     setNoticia(tnoticia)
     console.log(tnoticia)
@@ -28,7 +28,7 @@ function App() {
         <Noticias />
       </Route>
       {noticia.map((news) => (
-      <Route exact path={'/ver/' + news.id_noticia}>
+      <Route exact path={'/ver/noticia/' + news.id_noticia}>
         <Menu />
       </Route>
       ))}

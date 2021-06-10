@@ -30,4 +30,8 @@
 
 .TOP_Parrafo {
     font-size: 14px;
+    height: 3rem;
+    white-space: pre-line; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
