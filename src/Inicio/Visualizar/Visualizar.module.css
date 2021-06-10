@@ -1,3 +1,53 @@
-.color {
-    color: white;
+@font-face {
+    font-family: 'TituloRebote';
+    src: url('../../assets/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'ParrafoRebote';
+    src: url('../../assets/Roboto-ThinItalic.ttf');
+}
+
+.BOXPagina {
+    background-color: rgb(255, 255, 255);
+    width: 89.5rem;
+    height: auto;
+    margin-left: 12.5rem;
+    margin-top: 0rem;
+    padding: 1rem;
+}
+
+.BOXImagen {
+    width: 45rem;
+    height: 25rem;
+    margin-left: 1rem;
+}
+
+.BOXTopNoticias {
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.BOXTitulo {
+    font-family: 'TituloRebote';
+    font-size: 50px;
+    width: 50rem;
+    margin-top: 0rem;
+}
+
+.BOXParrafo {
+    font-family: 'ParrafoRebote';
+    font-size: 20px;
+    width: 50rem;
+}
+
+.BOXNoticia {
+    background-color: crimson;
+    color: whitesmoke;
+    padding: 0.5rem;
+    width: 55rem;
+    font-size: 15px;
+    border-radius: 0.4rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }

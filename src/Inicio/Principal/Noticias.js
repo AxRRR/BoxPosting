@@ -1,6 +1,5 @@
 import classes from './Noticias.module.css'
 import React from 'react'
-import TopNoticias from '../TopNoticias/TopNoticias'
 
 const Noticias = () => {
   const [noticia, setNoticia] = React.useState([])

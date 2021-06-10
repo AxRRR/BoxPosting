@@ -4,6 +4,7 @@ import HomeBanner from "./Inicio/Principal/HomeBanner";
 import Noticias from "./Inicio/Principal/Noticias";
 import { Route } from 'react-router-dom'
 import Visualizar from "./Inicio/Visualizar/Visualizar";
+import TopNoticias from './Inicio/TopNoticias/TopNoticias';
 
 function App() {
   const [noticia, setNoticia] = React.useState([])
@@ -24,14 +25,13 @@ function App() {
       <Route exact path='/noticias'>
         <Menu />
         <HomeBanner />
-        <Visualizar />
+        <TopNoticias />
         <Noticias />
       </Route>
-      {noticia.map((news) => (
-      <Route exact path={'/ver/noticia/' + news.id_noticia}>
-        <Menu />
-      </Route>
-      ))}
+    <Route exact path='/ver/noticia/:idnoticia' component={Visualizar}>
+      <Menu />
+      <Visualizar />
+    </Route>
     </div>
   );
 }
