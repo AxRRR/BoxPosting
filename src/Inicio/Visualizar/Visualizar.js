@@ -18,6 +18,8 @@ const ConsultarNoticiasTop15 = async () => {
     setVerNoticia(tnoticia)
 }
 
+document.title = "BoxPosting - ".concat(vernoticia.titulo_noticia);
+
     return <div> 
         <TopNoticias />
     <div className={classes.BOXPagina}>

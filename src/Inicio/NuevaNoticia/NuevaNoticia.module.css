@@ -1,0 +1,79 @@
+.BOXNoticiaNueva {
+    background-color: rgb(255, 255, 255);
+    width: 89.5rem;
+    height: auto;
+    margin-left: 12.5rem;
+    margin-top: 6.5rem;
+    padding: 1rem;
+    
+}
+
+.BOXFormulario {
+    width: 15.5rem;
+    height: 50rem;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+}
+
+.BOXTexto {
+    font-size: 16px;
+    justify-content: center;
+}
+
+.BOXTextArea {
+    width: 20rem;
+    height: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-size: 15px;
+}
+
+.BOXTextArea2 {
+    width: 20rem;
+    height: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-size: 15px;
+}
+
+.BOXTextArea3 {
+    width: 20rem;
+    height: 15rem;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+    font-size: 15px;
+}
+
+.BOXSelect {
+    width: 20rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+}
+
+/* CSS de la vista previa de la noticia */
+
+.PreviaBOX {
+    width: 46.2rem;
+    height: 50rem;
+    margin-top: -51rem;
+    margin-left: 30rem;
+    list-style: none;
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: pre-line;
+}
+
+.PreviaBOX::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.PrevImagen {
+    width: 45rem;
+    height: 30rem;
+    margin-left: 1rem;
+}

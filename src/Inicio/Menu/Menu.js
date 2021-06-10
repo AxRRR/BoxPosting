@@ -13,6 +13,7 @@ const Menu = () => {
             <li className={classes.Navbar_Item}>Cine y Series</li>
             <li className={classes.Navbar_Item}>Anime</li>
             <li className={classes.Navbar_Item}>Tecnologia</li>
+            <Link to='/noticias/publicar'><li className={classes.Navbar_Item}>Publicar noticia</li></Link>
         </ul>
     </div>
 }
