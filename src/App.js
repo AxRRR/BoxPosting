@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom'
 import Visualizar from "./Inicio/Visualizar/Visualizar";
 import TopNoticias from './Inicio/TopNoticias/TopNoticias';
 import NuevaNoticia from './Inicio/NuevaNoticia/NuevaNoticia';
+import SignIn from './Inicio/SignInAndLogin/SignIn';
 
 function App() {
   const [noticia, setNoticia] = React.useState([])
@@ -36,6 +37,10 @@ function App() {
     <Route exact path='/noticias/publicar'>
       <Menu />
       <NuevaNoticia />
+    </Route>
+    <Route exact path='/registrar'>
+      <Menu />
+      <SignIn />
     </Route>
     </div>
   );
