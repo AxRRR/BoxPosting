@@ -2,11 +2,6 @@ import classes from './NuevaNoticia.module.css'
 import React, { useState } from 'react'
 
 const NuevaNoticia = () => {
-  const [open, setOpen] = React.useState(false);
-
-  const handleClose = () => {
-    setOpen(false);
-  }
 
     const [ form, setForm ] = 
     useState({
@@ -40,7 +35,7 @@ const NuevaNoticia = () => {
             }
             await fetch('http://localhost:8080/api/agregarnoticia', config)
         } catch (error) {
-    
+            console.log(error)
         }
         return <div></div>
       }
@@ -82,7 +77,7 @@ const NuevaNoticia = () => {
                     <p>Recuerda que tu noticia tiene que pasar por la autorización de un moderador/administrador.</p>
                     <input type='submit' 
                     value='Publicar noticia' 
-                    onClick={handleClose}/>
+                    />
                 </form>
                 <li className={classes.PreviaBOX}>
                     <h1>{form.titulo_noticia}</h1>

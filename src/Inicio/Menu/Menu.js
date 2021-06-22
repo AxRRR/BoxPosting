@@ -2,6 +2,7 @@ import classes from './Menu.module.css'
 import React from 'react'
 import LogoImg from '../../assets/boxpostinglogo.png'
 import { Link } from 'react-router-dom'
+import SignIn from '../SignInAndLogin/SignIn'
 
 const Menu = () => {
   return (
@@ -18,9 +19,7 @@ const Menu = () => {
         <Link to="/noticias/publicar">
           <li className={classes.Navbar_Item}>Publicar noticia</li>
         </Link>
-        <Link to="/registrar">
-          <li className={classes.Navbar_Item}>Sign in</li>
-        </Link>
+          <li className={classes.Navbar_Item} onClick={<SignIn /> }>Sign in</li>
       </ul>
     </div>
   )

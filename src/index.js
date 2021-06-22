@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
+import { ReduxRender } from './ReduxRender';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter><App /></BrowserRouter>
+    <ReduxRender />
   </React.StrictMode>,
   document.getElementById('root')
 );

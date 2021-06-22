@@ -22,7 +22,6 @@ const TopNoticias = () => {
   return (
     <div>
       <ul className={classes.TOP_List}>
-        <h2 className={classes.TOP_Titulo}>Lo más visto:</h2>
         {RenderNoticiasTop15.map((top15) => (
           <li className={classes.TOP_Box}>
             <Link to={'/ver/noticia/' + top15.id}>

@@ -1,6 +1,7 @@
 import classes from './Noticias.module.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import SignIn from '../SignInAndLogin/SignIn'
 
 const Noticias = () => {
   const [noticia, setNoticia] = React.useState([])
@@ -106,8 +107,9 @@ const Noticias = () => {
 
   return (
     <div>
+      <SignIn />
       <div className={classes.Noticias_BOX}>
-        <h2 className={classes.Noticias_Titulo}>Últimas noticias:</h2>
+        {/* <h2 className={classes.Noticias_Titulo}>Últimas noticias:</h2> */}
         <ul className={classes.Noticias_BOXStyle}>
           <div>
             {RenderNews.map((news) => (
@@ -129,9 +131,9 @@ const Noticias = () => {
             ))}
           </div>
         </ul>
-        <h2 className={classes.Noticias_Titulo}>
+        {/* <h2 className={classes.Noticias_Titulo}>
           Últimas noticias tecnologia:
-        </h2>
+        </h2> */}
         <ul className={classes.Noticias_BOXStyle}>
           <div>
             {RenderNewsTecnologia.map((news) => (
@@ -153,9 +155,9 @@ const Noticias = () => {
             ))}
           </div>
         </ul>
-        <h2 className={classes.Noticias_Titulo}>
+        {/* <h2 className={classes.Noticias_Titulo}>
           Últimas noticias internacional:
-        </h2>
+        </h2> */}
         <ul className={classes.Noticias_BOXStyle}>
           <div>
             {RenderNewsInternacional.map((news) => (
@@ -177,9 +179,9 @@ const Noticias = () => {
             ))}
           </div>
         </ul>
-        <h2 className={classes.Noticias_Titulo}>
+        {/* <h2 className={classes.Noticias_Titulo}>
           Últimas noticias cine y series:
-        </h2>
+        </h2> */}
         <ul className={classes.Noticias_BOXStyle}>
           <div>
             {RenderNewsCineySeries.map((news) => (
@@ -201,9 +203,9 @@ const Noticias = () => {
             ))}
           </div>
         </ul>
-        <h2 className={classes.Noticias_Titulo}>
+        {/* <h2 className={classes.Noticias_Titulo}>
           Últimas noticias videojuegos:
-        </h2>
+        </h2> */}
         <ul className={classes.Noticias_BOXStyle}>
           <div>
             {RenderNewsVideojuegos.map((news) => (
@@ -225,7 +227,7 @@ const Noticias = () => {
             ))}
           </div>
         </ul>
-        <h2 className={classes.Noticias_Titulo}>Últimas noticias deportes:</h2>
+        {/* <h2 className={classes.Noticias_Titulo}>Últimas noticias deportes:</h2> */}
         <ul className={classes.Noticias_BOXStyle}>
           <div>
             {RenderNewsDeportes.map((news) => (
@@ -247,7 +249,7 @@ const Noticias = () => {
             ))}
           </div>
         </ul>
-        <h2 className={classes.Noticias_Titulo}>Últimas noticias anime:</h2>
+        {/* <h2 className={classes.Noticias_Titulo}>Últimas noticias anime:</h2> */}
         <ul className={classes.Noticias_BOXStyle}>
           <div>
             {RenderNewsAnime.map((news) => (

@@ -9,10 +9,11 @@
 }
 
 .Navbar_MenuStyle {
-    background-color: black;
-    height: 5rem;
-    width: auto;
-    margin-top: 0;
+    background-color: rgb(255, 255, 255);
+    height: 4rem;
+    width: 100%;
+    margin-top: 0rem;
+    position: fixed;
 }
 
 .Navbar_Item {
@@ -20,7 +21,7 @@
     text-align: left;
     font-size: 20px;
     font-family: 'ParrafoRebote';
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     list-style: none;
     margin-right: 2rem;
     margin-top: 1rem;

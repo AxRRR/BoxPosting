@@ -7,6 +7,7 @@ import Visualizar from "./Inicio/Visualizar/Visualizar";
 import TopNoticias from './Inicio/TopNoticias/TopNoticias';
 import NuevaNoticia from './Inicio/NuevaNoticia/NuevaNoticia';
 import SignIn from './Inicio/SignInAndLogin/SignIn';
+import Login from './Inicio/SignInAndLogin/Login';
 
 function App() {
   const [noticia, setNoticia] = React.useState([])
@@ -38,9 +39,9 @@ function App() {
       <Menu />
       <NuevaNoticia />
     </Route>
-    <Route exact path='/registrar'>
+    <Route exact path='/usuario/login'>
       <Menu />
-      <SignIn />
+      <Login />
     </Route>
     </div>
   );

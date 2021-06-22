@@ -1,9 +1,19 @@
+@font-face {
+    font-family: 'TituloRebote';
+    src: url('../../assets/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: 'ParrafoRebote';
+    src: url('../../assets/Roboto-ThinItalic.ttf');
+}
+
 .Noticias_BOX {
     background-color: rgb(255, 255, 255);
-    width: 89.5rem;
+    width: 90rem;
     height: auto;
     margin-left: 12.5rem;
-    margin-top: 6.5rem;
+    margin-top: 20rem;
     padding: 1rem;
 }
 
@@ -15,7 +25,6 @@
     width: 50rem;
     font-size: 15px;
     margin-top: 0rem;
-    border-radius: 0.4rem;
 }
 
 .Noticias_Caja {
@@ -32,8 +41,10 @@
     text-align: left;
     margin-right: 1rem;
     margin-top: 0.5rem;
-    font-size: 23px;
-    width: 34rem;
+    font-size: 24px;
+    width: 37rem;
+    color: rgb(92, 91, 91);
+    font-family: 'TituloRebote';
     white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis;
@@ -43,10 +54,13 @@
     float: right;
     text-align: left;
     margin-top: -8rem;
-    margin-right: 1rem;
-    width: 34rem;
-    height: 7.5rem;
-    white-space: pre-line; 
+    margin-right: 2rem;
+    width: 36rem;
+    height: 4rem;
+    font-size: 17px;
+    font-family: 'ParrafoRebote';
+    color: rgb(34, 34, 34);
+    white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -59,5 +73,5 @@
     width: 15rem;
     height: 10rem;
     margin: 0;
-    margin-left: -0.5rem;
+    margin-left: -4rem;
 }

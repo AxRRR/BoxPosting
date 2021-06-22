@@ -1,0 +1,22 @@
+.BOX {
+    background-color: rgba(255, 255, 255);
+    width: 20rem;
+    height: 15rem;
+    text-align: left;
+    position: fixed;
+    margin-left: 45rem;
+    padding: 2rem;
+}
+
+.LoginSpan {
+    font-size: 20px;
+}
+
+.LoginInput {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+    background-color: rgb(227, 237, 245);
+}
